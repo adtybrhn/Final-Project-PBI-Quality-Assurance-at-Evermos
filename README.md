@@ -1,13 +1,12 @@
-# Final Project Based Internship Rakamin x Evermos
+# Introduction 
+Performance testing dengan total 1000 virtual user, 3500 iterasi dan batas maksimum toleransi response APInya 2 second dengan assertion dari tiap test yang dilakukan dalam 1 file test menggunakan K6 dan generate report html menggunakan K6 reporter
 
-Performance testing dengan total 1000 virtual user, 3500 iterasi dan batas maksimum toleransi response APInya 2 second serta tambahkan assertion dari tiap test yang dilakukan dalam 1 file test menggunakan K6 dan generate report html menggunakan K6 reporter
-
-## Daftar Isi
+##  :beginner: Daftar Isi
 
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
 
-## Instalasi
+###  :electric_plug: Instalasi
 
 Langkah-langkah untuk menginstal proyek ini:
 
@@ -21,7 +20,7 @@ Langkah-langkah untuk menginstal proyek ini:
     cd Final-Project-PBI-Quality-Assurance-at-Evermos.git
     ```
 
-## Penggunaan
+### :package: Penggunaan
 
 Instruksi untuk menjalankan proyek ini:
 
@@ -29,3 +28,7 @@ Instruksi untuk menjalankan proyek ini:
     ```sh
     k6 run .\final.js
     ```
+##  :page_facing_up: Resources
+
+- K6 : https://k6.io/docs/get-started/installation/
+- K6 Reporter : https://github.com/benc-uk/k6-reporter
